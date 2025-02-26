@@ -1,2 +1,6 @@
 /.venv
-/__pycache__
+__pycache__
+/.vscode
+/sms-platform.yaml
+/prism-cli-linux
+.pytest_cache

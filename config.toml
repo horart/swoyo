@@ -1,11 +1,11 @@
 [server]
 address = "127.0.0.1"
-port = 8080
-hostname = "localhost"
+port = 4010
+hostname = "127.0.0.1:4010"
 
 [authorization]
-username = "vasya"
-password = "pupkin"
+username = "asd"
+password = "asd"
 
 [http]
 version = "1.1"
