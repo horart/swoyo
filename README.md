@@ -1,4 +1,5 @@
 # Asynchronous CLI client for SMS service
+
 Setup:
 ```
 pip install -r requirements.txt
@@ -28,4 +29,19 @@ Tests:
 ```
 pip install pytest pytest-asyncio
 pytest
+```
+
+Sample config:
+```
+[server]
+address = "127.0.0.1" # server IP/hostname
+port = 4010 # port number
+hostname = "127.0.0.1:4010" # Host header value (useful for subdomains etc)
+
+[authorization]
+username = "asd" # username
+password = "asd" # password
+
+[http]
+version = "1.1" # version of HTTP to be sent in requests
 ```
